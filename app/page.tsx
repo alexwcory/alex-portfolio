@@ -48,15 +48,19 @@ export default function Home() {
             </p>
           </Link>
 
-          <div className="border border-gray-300 dark:border-gray-600 rounded-2xl p-6">
+          <Link
+            href="/green-wallet"
+            className="border border-gray-300 dark:border-gray-600 rounded-2xl p-6 block transition hover:border-gray-500 dark:hover:border-gray-400 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500"
+          >
             <h3 className="text-xl font-semibold mb-2">
               GreenWallet
             </h3>
             <p className="text-gray-800 dark:text-gray-200">
-              Blockchain project exploring wallet behavior, DeFi identity,
-              cross-chain activity, and Soulbound Token-based reputation.
+              Blockchain efficiency credentialing system that scores wallet
+              behavior and mints Soulbound Tokens as non-transferable,
+              verifiable sustainability badges.
             </p>
-          </div>
+          </Link>
         </div>
       </section>
     </main>
