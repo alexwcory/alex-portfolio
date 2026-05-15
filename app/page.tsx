@@ -24,16 +24,6 @@ export default function Home() {
         </h2>
 
         <div className="grid gap-6 md:grid-cols-3">
-          <div className="border border-gray-300 dark:border-gray-600 rounded-2xl p-6">
-            <h3 className="text-xl font-semibold mb-2">
-              Real-Time Financial Desktop App
-            </h3>
-            <p className="text-gray-800 dark:text-gray-200">
-              Cross-platform desktop application work involving Rust, Qt/QML,
-              OAuth, WebSockets, UI architecture, and performance optimization.
-            </p>
-          </div>
-
           <Link
             href="/rb-volume-model"
             className="border border-gray-300 dark:border-gray-600 rounded-2xl p-6 block transition hover:border-gray-500 dark:hover:border-gray-400 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500"
@@ -59,6 +49,34 @@ export default function Home() {
               Blockchain efficiency credentialing system that scores wallet
               behavior and mints Soulbound Tokens as non-transferable,
               verifiable sustainability badges.
+            </p>
+          </Link>
+
+          <Link
+            href="/VR-AI-Image-Generation-Tool"
+            className="border border-gray-300 dark:border-gray-600 rounded-2xl p-6 block transition hover:border-gray-500 dark:hover:border-gray-400 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500"
+          >
+            <h3 className="text-xl font-semibold mb-2">
+              VR AI Image Generation Tool
+            </h3>
+            <p className="text-gray-800 dark:text-gray-200">
+              Built a Python and Unreal Engine prototype that lets users
+              generate AI images from text prompts and view them in VR at large
+              scale for immersive concept evaluation.
+            </p>
+          </Link>
+
+          <Link
+            href="/sync-ai-dating-app"
+            className="border border-gray-300 dark:border-gray-600 rounded-2xl p-6 block transition hover:border-gray-500 dark:hover:border-gray-400 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500"
+          >
+            <h3 className="text-xl font-semibold mb-2">
+              Sync — AI Date Planning App
+            </h3>
+            <p className="text-gray-800 dark:text-gray-200">
+              React Native / Expo mobile app that guides users through a
+              questionnaire, swipe-based activity selection, and
+              itinerary-building flow to plan personalized dates in one place.
             </p>
           </Link>
         </div>
